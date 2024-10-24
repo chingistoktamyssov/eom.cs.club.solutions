@@ -6,8 +6,8 @@ while 1:
     if word == 'quit!':
         break
   
-    if len(word) > 4:
-        if word[-3] in consonants and word[-2] == 'o' and word[-1] == 'r':
-            word = word[:-2] + 'our'
+    if len(word) > 4: # word needs to be longer than 4 characters long accordinqg to problem statement
+        if word[-3] in consonants and word[-2] == 'o' and word[-1] == 'r': # find -(constant)or suffix
+            word = word[:-2] + 'our' # replace with -our suffix
     
     print(word)
