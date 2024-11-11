@@ -32,4 +32,5 @@ for i in range(1, n + 1):
     columns[i] += columns[i - 1]
 
 width = solve(n, k, columns)
+
 print(width)

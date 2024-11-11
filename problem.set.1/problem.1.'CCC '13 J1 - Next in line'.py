@@ -1,4 +1,4 @@
-y = int(input()) # youngest age
-m = int(input()) # middle age
+y = int(input())
+m = int(input())
 
-print(m * 2 - y) # m * 2 - y = m * 2 - (m-n) = m * 2 - m + n = m + n = oldest age
+print(m * 2 - y)
